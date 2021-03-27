@@ -1,0 +1,58 @@
+.box {
+    min-height: 400px;
+    min-width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+.align-center {
+    text-align: center;
+}
+
+  .box h2 {
+    color: teal;    
+    font-weight: bold;
+  }
+  
+  .white {
+    background: white;
+  }
+
+  body {
+    background-color: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  p {
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkslategray;
+  }
+
+  .text-wrap-left {
+      float:left;
+      margin:10px;
+  }
+
+.navbar-brand {
+    color: teal !important;
+    font-weight: bolder;
+}
+
+
+  @media (max-width: 600px) {
+    .navbar-light.bg-light {
+        background-color:teal !important;
+    }
+    .navbar-brand {
+        color:white !important;
+        font-weight: bolder;
+    }
+    .dropdown-item {
+        color:teal !important;
+    }
+    .nav-link {
+        color:white !important;
+    }
+
+}
